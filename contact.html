@@ -1,1 +1,169 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | PANTOCONS SERV IMOB</title>
+<style>
+  :root{
+    --ink:#1E2A3A;
+    --paper:#F7F8FA;
+    --paper-soft:#E3E8EE;
+    --steel:#556270;
+    --ember:#8B1E2D;
+    --amber:#B08A3C;
+    --green:#2F5D46;
+    --font:"Times New Roman", Times, serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:var(--font);line-height:1.6}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+  header{position:sticky;top:0;z-index:20;background:rgba(247,248,250,.96);backdrop-filter:blur(7px);border-bottom:1px solid var(--paper-soft)}
+  .nav{max-width:1120px;margin:0 auto;padding:20px 32px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+  .logo{font-size:19px;font-weight:700;line-height:1.08;letter-spacing:.01em}
+  .logo span{display:block;font-size:12px;font-weight:400;color:var(--steel);margin-top:4px;letter-spacing:.04em}
+  .back{font-size:15px;font-weight:700;border-bottom:1px solid var(--ink);padding-bottom:3px}
+  .back:hover{color:var(--ember);border-color:var(--ember)}
+  .hero-contact{padding:96px 0 72px;border-bottom:1px solid var(--paper-soft);background:linear-gradient(180deg,#fff 0%,var(--paper) 100%)}
+  .eyebrow{font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--ember);font-weight:700}
+  h1{font-size:clamp(48px,7vw,84px);line-height:1.02;margin:14px 0 18px;max-width:820px}
+  .lead{font-size:22px;max-width:760px;color:#3f4a56}
+  .contact-main{padding:66px 0 88px}
+  .intro{text-align:center;max-width:860px;margin:0 auto 50px}
+  .intro h2{font-size:clamp(28px,4vw,42px);margin-bottom:12px}
+  .intro p{font-size:18px;color:var(--steel)}
+  .contact-layout{display:grid;grid-template-columns:.72fr 1.28fr;gap:44px;align-items:start}
+  .ways{display:grid;gap:18px}
+  .way{padding:26px;background:#fff;border:1px solid var(--paper-soft)}
+  .way-label{font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:var(--steel);font-weight:700}
+  .way-value{display:block;font-size:25px;font-weight:700;margin-top:7px;color:var(--ember)}
+  .way small{display:block;color:var(--steel);font-size:14px;margin-top:8px}
+  .wa{color:#276749}
+  .form-box{background:#fff;border:1px solid var(--paper-soft);padding:38px}
+  .form-box h2{font-size:34px;margin-bottom:8px}
+  .form-box > p{color:var(--steel);margin-bottom:26px}
+  form{display:grid;gap:20px}
+  .form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  label{display:block;font-size:13px;letter-spacing:.06em;text-transform:uppercase;color:var(--steel);font-weight:700;margin-bottom:7px}
+  input,textarea{width:100%;border:1px solid #c6cfd8;background:#fbfcfd;padding:14px 15px;font:17px var(--font);color:var(--ink);outline:none;border-radius:0}
+  input:focus,textarea:focus{border-color:var(--ember);box-shadow:0 0 0 2px rgba(139,30,45,.08)}
+  textarea{min-height:150px;resize:vertical}
+  .btn{display:inline-flex;align-items:center;justify-content:center;padding:15px 26px;font:700 16px var(--font);border:1px solid var(--ink);cursor:pointer}
+  .btn-primary{background:var(--ink);color:#fff}
+  .btn-primary:hover{background:var(--ember);border-color:var(--ember)}
+  .form-status{min-height:1.5em;font-size:15px;color:var(--steel)}
+  .form-status.success{color:var(--green)}
+  .form-status.error{color:var(--ember)}
+  .note{margin-top:30px;padding-top:22px;border-top:1px solid var(--paper-soft);font-size:14px;color:var(--steel)}
+  footer{background:var(--ink);color:var(--paper-soft);padding:30px 0}
+  .footer-inner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+  .footer-inner a:hover{color:#fff}
+  @media(max-width:820px){
+    .nav{padding:18px 20px}.wrap{padding:0 20px}.hero-contact{padding:70px 0 50px}
+    .contact-layout{grid-template-columns:1fr}.form-row{grid-template-columns:1fr}.form-box{padding:26px}
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="logo" href="index.html">PANTOCONS SERV IMOB <span>Servicii industriale</span></a>
+    <a class="back" href="index.html">← Înapoi la site</a>
+  </div>
+</header>
 
+<main>
+  <section class="hero-contact">
+    <div class="wrap">
+      <div class="eyebrow">PANTOCONS SERV IMOB</div>
+      <h1>Contactați-ne.</h1>
+      <p class="lead">Pentru o ofertă, o intervenție sau informații despre lucrarea dumneavoastră, luați legătura direct cu noi.</p>
+    </div>
+  </section>
+
+  <section class="contact-main">
+    <div class="wrap">
+      <div class="intro">
+        <h2>Vorbiți direct cu noi sau trimiteți solicitarea online.</h2>
+        <p>Contactați-ne pe WhatsApp la numărul de mai jos sau pe Email, completând formularul.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="ways">
+          <a class="way" href="https://wa.me/40748967184" target="_blank" rel="noopener noreferrer">
+            <span class="way-label">WhatsApp</span>
+            <span class="way-value wa">0748 967 184</span>
+            <small>Apăsați pentru a deschide conversația WhatsApp.</small>
+          </a>
+          <a class="way" href="tel:+40748967184">
+            <span class="way-label">Telefon</span>
+            <span class="way-value">0748 967 184</span>
+            <small>Disponibil pentru discuții despre lucrări și intervenții.</small>
+          </a>
+          <div class="way">
+            <span class="way-label">Email</span>
+            <span class="way-value" style="font-size:21px;word-break:break-word">scmagdalbitumsrl@gmail.com</span>
+            <small>Răspundeți prin formularul de mai jos, iar solicitarea va ajunge direct la noi.</small>
+          </div>
+        </div>
+
+        <div class="form-box">
+          <h2>Solicitați o ofertă</h2>
+          <p>Completați datele de mai jos și vom reveni cât mai curând posibil.</p>
+          <form id="contactForm" action="https://formsubmit.co/ajax/scmagdalbitumsrl@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Solicitare nouă de ofertă — PANTOCONS SERV IMOB">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_url" id="formUrl" value="">
+            <div class="form-row">
+              <div><label for="nume">Nume</label><input type="text" id="nume" name="nume" placeholder="Numele dumneavoastră" autocomplete="name" required></div>
+              <div><label for="telefon">Telefon</label><input type="tel" id="telefon" name="telefon" placeholder="07xx xxx xxx" autocomplete="tel" required></div>
+            </div>
+            <div><label for="email">Email</label><input type="email" id="email" name="email" placeholder="adresa@companie.ro" autocomplete="email" required></div>
+            <div><label for="produs">Tip produs / lucrare</label><input type="text" id="produs" name="produs" placeholder="Ex: încălzire păcură, curățare rezervor..." required></div>
+            <div><label for="mesaj">Detalii lucrare</label><textarea id="mesaj" name="mesaj" placeholder="Cantitate, tipul și dimensiunile rezervorului, locație, acces..." required></textarea></div>
+            <button id="submitButton" type="submit" class="btn btn-primary">Trimite solicitarea</button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+          <p class="note">Fiecare solicitare este evaluată în funcție de produs, cantitate, tipul rezervorului, accesul la locație și condițiile de lucru.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>© 2026 PANTOCONS SERV IMOB. Toate drepturile rezervate.</span>
+    <a href="index.html">Înapoi la pagina principală</a>
+  </div>
+</footer>
+
+<script>
+const form=document.getElementById('contactForm');
+const statusEl=document.getElementById('formStatus');
+const submitButton=document.getElementById('submitButton');
+const formUrl=document.getElementById('formUrl');
+if(formUrl) formUrl.value=window.location.href;
+form.addEventListener('submit',async(e)=>{
+  e.preventDefault();
+  statusEl.className='form-status';
+  statusEl.textContent='Se trimite solicitarea…';
+  submitButton.disabled=true;submitButton.style.opacity='.65';
+  try{
+    const r=await fetch(form.action,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(form)))});
+    const result=await r.json();
+    if(!r.ok||result.success===false) throw new Error(result.message||'Trimiterea nu a reușit.');
+    form.reset();if(formUrl)formUrl.value=window.location.href;
+    statusEl.className='form-status success';
+    statusEl.textContent='Solicitarea a fost trimisă. Vă vom contacta cât mai curând.';
+  }catch(err){
+    statusEl.className='form-status error';
+    statusEl.textContent='Solicitarea nu a putut fi trimisă. Vă rugăm să încercați din nou sau să sunați la 0748 967 184.';
+  }finally{submitButton.disabled=false;submitButton.style.opacity='';}
+});
+</script>
+</body>
+</html>
